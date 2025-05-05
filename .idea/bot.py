@@ -4,7 +4,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 from ollama import AsyncClient
 
 # Конфигурация
-TOKEN = "8000161068:AAHrJIgL6OpCY5fVseZbEm9mcX33UhBqg44"
+TOKEN = "Ваш токен"
 MODEL_NAME = "llama3:instruct"
 UNIVERSITY_NAME = "РТУ МИРЭА"
 
