@@ -6,28 +6,15 @@
 
 ### Необходимые компоненты
 - Python 3.10+
-- Ollama (последняя версия)
 - Токен бота от [@BotFather](https://t.me/BotFather)
 
-### Установка
-1. Установите Ollama:
-   ```bash
-   curl -fsSL https://ollama.com/install.sh | sh  # Linux/macOS
-   winget install Ollama.Ollama                   # Windows
-2. Установите языковую модель:
-   ```bash
-     ollama pull llama3:instruct   
-3.Клонируйте репозиторий
-
-4.В файле bot.py укажите ваш токен:
+1.В файле bot.py укажите ваш токен:
 Получите токен бота у @BotFather в Telegram 
 Вставте токен - TOKEN = "ВАШ_ТОКЕН_БОТА"
 
-### Запуск системы 
-1.Первый терминал (запуск сервера Ollama):
-ollama serve
+2.VEGA_API_KEY - вставте токен веги 
 
-2.Запустите бота в среде разработки или через терминал
+3.Запустите бота в среде разработки или через терминал
 
 ### Использование
 1.Найдите вашего бота в Telegram
